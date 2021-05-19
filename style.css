@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #067eed;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar a {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+.navbar li {
+  list-style: none;
+  display: inline;
+}
+.banner {
+  background-image: url(wash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100vw;
+}
+.banner-text p {
+  font-size: 50px;
+  position: absolute;
+  top: 20%;
+  left: 27%;
+  color: white;
+}
+.banner-text button {
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  position: absolute;
+  top: 44%;
+  left: 39%;
+}
+#sub {
+  font-size: 20px;
+  color: white;
+  top: 32%;
+  left: 31%;
+}
+.section1 {
+  background-color: white;
+  display: flex;
+}
+.one{
+  width: 30%;
+  height
+}
+
